@@ -1,0 +1,17 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.main-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.column {
+  width: 300px;
+}
+.label {
+  text-align: center;
+}

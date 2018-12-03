@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Budget tracker</title>
+  </head>
+  <body>
+    <div id="header" class="header">
+      <div class="date" id="date">Available Budget in December 2018:</div>
+      <div id="total-sum" class="total-sum"></div>
+      <div class="inline income">
+        <span>INCOME</span> <span id="income"></span>
+      </div>
+      <div class="inline expenses">
+        <span>EXPENSES</span> <span id="expenses"></span>
+      </div>
+    </div>
+    <div class="control-panel">
+      <button class="btn btn-income" id="btn-income">Add income</button>
+      <form id="form">
+        <input
+          type="text"
+          placeholder="Add description"
+          id="description"
+          class="input"
+        />
+        <input type="number" placeholder="Value" id="value" class="input" />
+      </form>
+      <button class="btn btn-expenses" id="btn-expenses">Add expenses</button>
+    </div>
+    <div id="main" class="main">
+      <div class="column left-side">
+        <div class="label">INCOME</div>
+        <ul class="main-list main-income" id="main-income"></ul>
+      </div>
+      <div class="column right-side">
+        <div class="label">EXPENSES</div>
+        <ul class="main-list main-expenses" id="main-expenses"></ul>
+      </div>
+    </div>
+  </body>
+</html>

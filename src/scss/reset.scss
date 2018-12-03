@@ -1,0 +1,22 @@
+html,
+body,
+ul,
+p,
+ol,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+button {
+  text-decoration: none;
+}
